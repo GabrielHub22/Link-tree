@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+}
+
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./fundo.jpeg");
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+    background: rgb(22, 22, 22);
+    border-radius: 12px;
+    padding: 30px;
+    backdrop-filter: opacity(10px);
+    
+}
+
+section header {
+    text-align: center;
+}
+
+section header img {
+    height: 35vh;
+    width: 17vw;
+    border-radius: 12px;
+}
+
+section div #container {
+    font-size: 25px;
+}
+
+section div header h1 {
+    font-size: 30px;
+}
+
+section div span a {
+    border-radius: 4px;
+    box-shadow: 10px 10px 0px hsla(0, 0%, 0%, .25);
+    padding: 15px 100px;
+    background: rgb(45, 0, 97);
+}
+
